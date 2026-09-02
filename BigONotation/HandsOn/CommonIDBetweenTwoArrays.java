@@ -1,4 +1,4 @@
-package Day1;
+package BigONotation.HandsOn;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package Day1;
+package BigONotation.HandsOn;
 
 public class BigOExamples {
     private int arr[];
