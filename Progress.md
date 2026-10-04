@@ -48,7 +48,7 @@ Each session is scored out of 100, split across 4 weighted components:
 
 ### 2026-09-01 — Code io Tamil
 **Pattern/topic:** Arrays fundamentals — access, update, insert, delete, search on a fixed-size array with separate length/size tracking
-**Video/course time:** (fill in)
+**Video/course time:** (~ 69 mins)
 **Problems attempted:** 1 (`ArraysImplementationSimple` — custom array wrapper class)
 **Problems solved independently:** 1 (full class structure — constructor, `printArray`, `getElement`, `setElement`, and initial logic for insert/delete/search)
 **Problems solved with help/hints:** 3 (`deleteElement` size bug — incremented instead of decremented; `insertElement` vacancy check via `arr[index]==0` — unreliable since 0 is a valid value, replaced with unconditional shift+increment; `searchArray` loop bound — used `arr.length` instead of `size`)
