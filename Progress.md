@@ -1,5 +1,6 @@
 # LeetCode & Interview Progress
 
+
 ## Scoring Rubric
 
 Each completed problem is scored out of 100:
@@ -12,19 +13,53 @@ Each completed problem is scored out of 100:
 | **Complexity**      |         15 | Time / space understanding                  |
 | **Speed / Fluency** |         10 | Interview pace and implementation fluency   |
 
-**Independence:** Independent / Guided / With Help
+### Independence bands
 
-**Overall Mastery** is a slower-moving estimate based on breadth, difficulty, independence and consistency across problems.
+| **Level**     | **Points** | **Meaning**                                                  |
+| ------------- | ---------: | ------------------------------------------------------------ |
+| Independent   |      21-25 | Derived the approach and wrote the code without hints        |
+| Guided        |      11-20 | Needed a nudge on the approach or on translating to code     |
+| With Help     |       0-10 | Solution direction or code was largely provided              |
+
+### Speed bands (time from reading the problem to a passing solution)
+
+| **Difficulty** | **On pace (8-10)** | **Slow (4-7)** | **Very slow (0-3)** |
+| -------------- | -----------------: | -------------: | ------------------: |
+| Easy           |            ≤ 15 min |    16-25 min   |           > 25 min  |
+| Medium         |            ≤ 30 min |    31-45 min   |           > 45 min  |
+| Hard           |            ≤ 45 min |    46-70 min   |           > 70 min  |
+
+Always record the **Minutes** column. A speed score without a recorded time is a guess.
+
+### Overall Mastery
+
+Mastery is a slower-moving estimate. Update it **once a week** as the difficulty-weighted average of the last 5 scored problems (Easy = 1, Medium = 2, Hard = 3). It stays at **Baseline** until 5 problems are scored, because one Easy problem is not enough data.
 
 ---
 
-## Cumulative Mastery Trend
+## Problem Log
 
-| **Date**   | **Problem**             | **Source** | **Topic** | **Difficulty** | **Correctness** | **Independence** | **Reasoning** | **Complexity** | **Speed** | **Time / Space**  | **Status**     | **Score** |  **Mastery** | **LeetCode Result**                                       | **Notes**                                                      |
-| ---------- | ----------------------- | ---------- | --------- | -------------- | --------------: | ---------------: | ------------: | -------------: | --------: | ----------------- | -------------- | --------: | -----------: | --------------------------------------------------------- | -------------------------------------------------------------- |
-| 2026-10-04 | Merge Sorted Array #88  | LeetCode   | Arrays    | Easy           |              30 |               23 |            18 |             15 |         3 | `O(m+n)` / `O(1)` | ✅ Accepted     |    **89** | **Baseline** | `0 ms` · `100.00% runtime` · `43.83 MB` · `46.57% memory` | Derived reverse in-place merge; Java implemented independently |
-| 2026-10-04 | Sort Colors #75         | LeetCode   | Arrays    | Medium         |               — |                — |             — |              — |         — | —                 | 🟡 In Progress |         — |            — | —                                                         | —                                                              |
-| 2026-10-04 | Trapping Rain Water #42 | LeetCode   | Arrays    | Hard           |               — |                — |             — |              — |         — | —                 | ⏳ Planned      |         — |            — | —                                                         | —                                                              |
+| **Date**   | **Problem**             | **Topic** | **Difficulty** | **Min** | **Independence** | **Time / Space**  | **Status**     | **Score** | **LeetCode Result**                                       | **Notes**                                                      |
+| ---------- | ----------------------- | --------- | -------------- | ------: | ---------------- | ----------------- | -------------- | --------: | --------------------------------------------------------- | -------------------------------------------------------------- |
+| 2026-10-04 | Merge Sorted Array #88  | Arrays    | Easy           |       — | Independent      | `O(m+n)` / `O(1)` | ✅ Accepted     |    **89** | `0 ms` · `100.00% runtime` · `43.83 MB` · `46.57% memory` | Derived reverse in-place merge; Java implemented independently. Time not recorded, so speed score is an estimate |
+| 2026-10-04 | Sort Colors #75         | Arrays    | Medium         |       — | —                | —                 | 🟡 In Progress |         — | —                                                         | —                                                              |
+
+
+---
+
+## Score Breakdown
+
+| **Date**   | **Problem**            | **Correctness (30)** | **Independence (25)** | **Reasoning (20)** | **Complexity (15)** | **Speed (10)** | **Total** |
+| ---------- | ---------------------- | -------------------: | --------------------: | -----------------: | ------------------: | -------------: | --------: |
+| 2026-10-04 | Merge Sorted Array #88 |                   30 |                    23 |                 18 |                  15 |              3 |    **89** |
+
+---
+
+## Mastery Trend
+
+| **Week of** | **Problems scored** | **Weighted avg** | **Mastery**  |
+| ----------- | ------------------: | ---------------: | ------------ |
+| 2026-10-04  |                   1 |               89 | **Baseline** |
 
 ---
 
