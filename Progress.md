@@ -1,14 +1,13 @@
 # LeetCode & Interview Progress
 
-
 ## Scoring Rubric
 
-Each completed problem is scored out of 100:
+Each completed problem is scored out of 100 during the AI-interviewer simulation:
 
 | **Metric**          | **Weight** | **Measures**                                |
 | ------------------- | ---------: | ------------------------------------------- |
 | **Correctness**     |         30 | Correct implementation + edge cases         |
-| **Independence**    |         25 | How much was solved without help            |
+| **Independence**    |         25 | How much was solved without hints           |
 | **Problem Solving** |         20 | Clarification, approach, reasoning, dry run |
 | **Complexity**      |         15 | Time / space understanding                  |
 | **Speed / Fluency** |         10 | Interview pace and implementation fluency   |
@@ -29,7 +28,7 @@ Each completed problem is scored out of 100:
 | Medium         |            ≤ 30 min |    31-45 min   |           > 45 min  |
 | Hard           |            ≤ 45 min |    46-70 min   |           > 70 min  |
 
-Always record the **Minutes** column. A speed score without a recorded time is a guess.
+*Always record the **Minutes** column. A speed score without a recorded time is a guess.*
 
 ### Overall Mastery
 
@@ -39,11 +38,10 @@ Mastery is a slower-moving estimate. Update it **once a week** as the difficulty
 
 ## Problem Log
 
-| **Date**   | **Problem**             | **Topic** | **Difficulty** | **Min** | **Independence** | **Time / Space**  | **Status**     | **Score** | **LeetCode Result**                                       | **Notes**                                                      |
-| ---------- | ----------------------- | --------- | -------------- | ------: | ---------------- | ----------------- | -------------- | --------: | --------------------------------------------------------- | -------------------------------------------------------------- |
-| 2026-10-04 | Merge Sorted Array #88  | Arrays    | Easy           |       — | Independent      | `O(m+n)` / `O(1)` | ✅ Accepted     |    **89** | `0 ms` · `100.00% runtime` · `43.83 MB` · `46.57% memory` | Derived reverse in-place merge; Java implemented independently. Time not recorded, so speed score is an estimate |
-| 2026-10-04 | Sort Colors #75         | Arrays    | Medium         |       — | —                | —                 | 🟡 In Progress |         — | —                                                         | —                                                              |
-
+| **Date**   | **Problem**             | **Topic** | **Difficulty** | **Min** | **Independence** | **Time / Space**  | **Status**     | **Score** | **LeetCode Result**                                       | **Notes / Commit Link**                                                      |
+| ---------- | ----------------------- | --------- | -------------- | ------: | ---------------- | ----------------- | -------------- | --------: | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 2026-10-04 | Merge Sorted Array #88  | Arrays    | Easy           |       — | Independent      | `O(m+n)` / `O(1)` | ✅ Accepted     |    **89** | `0 ms` · `100.00% runtime` · `43.83 MB` · `46.57% memory` | Reverse in-place merge; Java code. Time unrecorded; speed score estimated.   |
+| 2026-10-04 | Sort Colors #75         | Arrays    | Medium         |       — | —                | —                 | 🟡 In Progress |         — | —                                                         | —                                                                            |
 
 ---
 
@@ -63,18 +61,13 @@ Mastery is a slower-moving estimate. Update it **once a week** as the difficulty
 
 ---
 
-## Interview Coverage
+## Interview Coverage & Targets
 
-Problems will progressively cover the major DSA patterns across Easy, Medium and Hard, plus selected **Google-style** and **Jane Street-style** problems.
+Problems progressively cover major DSA patterns across Easy, Medium, and Hard tiers, incorporating **Google-style** and **Jane Street-style** deep-reasoning problems. The target pattern is kept hidden during solving and finalized post-submission.
 
-The intended pattern is kept hidden during solving and recorded after the problem is derived.
-
-### Goal
-
-Build problem-solving muscle memory.
-
-**Target process:**
-
-Clarify -> Restate -> Constraints + Edge Cases -> Brute Force -> Find the Bottleneck -> Derive Optimization -> Choose Data Structure / Algorithm -> Pseudocode -> Dry Run -> Complexity -> Independent Java Implementation -> Test / Break the Solution
-
-Target: **DSA interview readiness**, while also developing the deeper reasoning required for unfamiliar and high-difficulty problems.
+### Targeted Interview Process Flow:
+1. **Clarify & Restate:** Ask questions, establish constraints, and define edge cases.
+2. **Brainstorm:** Present brute-force, find bottlenecks, and derive optimization.
+3. **Plan:** Choose data structures/algorithms, write pseudocode, and dry run manually.
+4. **Analyze:** State time and space complexity before writing syntax.
+5. **Implement & Test:** Write independent Java code on LeetCode, submit, and commit.
