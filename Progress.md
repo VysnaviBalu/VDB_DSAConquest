@@ -41,23 +41,25 @@ Mastery is a slower-moving estimate. Update it **once a week** as the difficulty
 | **Date**   | **Problem**             | **Topic** | **Difficulty** | **Min** | **Independence** | **Time / Space**  | **Status**     | **Score** | **LeetCode Result**                                       | **Notes / Commit Link**                                                      |
 | ---------- | ----------------------- | --------- | -------------- | ------: | ---------------- | ----------------- | -------------- | --------: | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | 2026-10-04 | Merge Sorted Array #88  | Arrays    | Easy           |       — | Independent      | `O(m+n)` / `O(1)` | ✅ Accepted     |    **89** | `0 ms` · `100.00% runtime` · `43.83 MB` · `46.57% memory` | Reverse in-place merge; Java code. Time unrecorded; speed score estimated.   |
-| 2026-10-04 | Sort Colors #75         | Arrays    | Medium         |       — | —                | —                 | 🟡 In Progress |         — | —                                                         | —                                                                            |
+| 2026-10-10 | Sort Colors #75 | Arrays | Medium | 46–70 | Guided | `O(n)` / `O(1)` | ✅ Accepted | **82** | `0 ms` · `100.00% runtime` · `43.20 MB` · `94.29% memory` | Derived three-pointer partitioning through guided dry runs; implemented in Java; 90/90 test cases passed. Elapsed time recorded as a range. |
 
 ---
 
 ## Score Breakdown
 
-| **Date**   | **Problem**            | **Correctness (30)** | **Independence (25)** | **Reasoning (20)** | **Complexity (15)** | **Speed (10)** | **Total** |
-| ---------- | ---------------------- | -------------------: | --------------------: | -----------------: | ------------------: | -------------: | --------: |
-| 2026-10-04 | Merge Sorted Array #88 |                   30 |                    23 |                 18 |                  15 |              3 |    **89** |
+| **Date** | **Problem** | **Correctness (30)** | **Independence (25)** | **Reasoning (20)** | **Complexity (15)** | **Speed (10)** | **Total** |
+| -------- | ----------- | -------------------- | --------------------- | ------------------ | ------------------- | -------------- | --------- |
+| 2026-10-04 | Merge Sorted Array #88 | 30 | 23 | 18 | 15 | 3 | **89** |
+| 2026-10-10 | Sort Colors #75 | 30 | 15 | 17 | 15 | 5 | **82** |
 
 ---
 
 ## Mastery Trend
 
-| **Week of** | **Problems scored** | **Weighted avg** | **Mastery**  |
-| ----------- | ------------------: | ---------------: | ------------ |
-| 2026-10-04  |                   1 |               89 | **Baseline** |
+| **Week of** | **Problems scored** | **Weighted avg** | **Mastery** |
+| ----------- | ------------------- | ---------------- | ----------- |
+| 2026-10-04 | 1 | 89.00 | **Baseline** |
+| 2026-10-10 | 1 | 82.00 | **Baseline** |
 
 ---
 
