@@ -56,6 +56,38 @@ public class BinarySearchTree {
             }
         }
 
+        Node findMinimum(Node root){
+            while(root.left != null){
+                root = root.left;
+            }
+            return root;
+        }
+        Node delete(Node root, int data){
+            if(root == null){
+                System.out.println("Not Found "+data);
+                return null;
+            }
+            // Deleting a node with no child
+            else if(root.data > data){
+                root.left = delete(root.left, data);
+            } else if (root.data < data) {
+                root.right = delete(root.right, data);
+            } else {
+                if (root.left == null){
+                    System.out.println("Deleted node "+data);
+                    return root.right;
+                } else if (root.right == null) {
+                    System.out.println("Deleted node " + data);
+                    return root.left;
+                }
+
+                Node successor = findMinimum(root.right);
+                root.data = successor.data;
+                root.right = delete(root.right, successor.data);
+            }
+            return root;
+        }
+
         void inOrderTraversalDisplay(Node root){
             if(root == null){
                 return;
@@ -75,10 +107,21 @@ public class BinarySearchTree {
             bst.insertBinarySearchTree(bst.root,8);
             bst.insertBinarySearchTree(bst.root,6);
 
-            System.out.println("**** Traversal ****");
-            bst.inOrderTraversalDisplay(bst.root);
-            System.out.println("\n**** Search ****");
-            bst.search(bst.root, 4);
-            bst.search(bst.root, 8);
+            System.out.println("**** Traversal Before ****");
+            bst.inOrderTraversalDisplay(bst.root); // 1 2 3 5 6 7 8 9
+            System.out.println();
+
+            // 1. Delete Node 3 (Leaf node)
+            bst.root = bst.delete(bst.root, 3);
+
+            // 2. Delete Node 9 (One child: it has a left child '8')
+            bst.root = bst.delete(bst.root, 9);
+
+            // 3. Delete Node 5 (Two children: root node)
+           bst.root = bst.delete(bst.root, 5);
+
+            System.out.println("\n**** Traversal After ****");
+            bst.inOrderTraversalDisplay(bst.root); // 1 2 6 7 8
+            System.out.println();
         }
 }
